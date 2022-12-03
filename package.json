@@ -1,25 +1,15 @@
 {
-  "name": "rex-ts-template",
-  "version": "1.0.0",
-  "description": "rex typescript template",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " tsc && nodemon dist/server.js "
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheWisePigeon/rex-ts-template.git"
-  },
-  "author": "TheWisePigeon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TheWisePigeon/rex-ts-template/issues"
-  },
-  "homepage": "https://github.com/TheWisePigeon/rex-ts-template#readme",
   "devDependencies": {
     "@types/express": "^4.17.14",
     "@types/node": "^18.11.10",
     "nodemon": "^2.0.20",
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
